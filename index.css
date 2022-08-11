@@ -89,6 +89,14 @@
 	.contactdits{
 
 	}
+	
+	.acc{
+		width: 30%;
+		margin-top: 10vh;
+	}
+	.graphics{
+		width: 100%;
+	}
 
 
 /* mobile phones */
@@ -127,6 +135,13 @@
 	#socmed2{
 		margin-right: 0px;
 		margin-bottom: 20px;
+	}
+	.acc{
+		width: 80%;
+		margin-top: 10vh;
+	}
+	.graphics{
+		width: 100%;
 	}
 
 
