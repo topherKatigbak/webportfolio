@@ -31,7 +31,7 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">TOPHER</a>
+      <a class="navbar-brand" href="index.html">TOPHER</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -40,7 +40,7 @@
           <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="profile.html">Profile</a>
           <a class="nav-item nav-link" href="projects.html">Projects</a>
-          <a class="nav-item nav-link" href="index.html">Contacts</a>
+          <a class="nav-item nav-link" href="index.html#emailsend">Contacts</a>
         </div>
       </div>
     </nav>
@@ -53,9 +53,9 @@
 
 
 	<div class="mainprofile">
-		<!-- <div class="text-center d-flex justify-content-center align-center mainprofile">
+		<!--  <div class="text-center d-flex justify-content-center align-center mainprofile"> -->
 
-			<div>
+			<!-- <div>
 				<table class="text-light contactpage">
 
 					<tr>		
@@ -69,7 +69,7 @@
 					</tr>
 
 				</table>	
-		</div> -->
+		</div > --> 
 
 
 		<div class="d-sm-block d-lg-flex flex-row justify-content-center text-light">
@@ -84,10 +84,6 @@
 			</div>
 
 		</div>	
-
-
-			
-	<hr>
 
 		<div class="contactdits d-sm-block d-lg-flex flex-row justify-content-center mt-5 text-light text-center">
 
@@ -119,11 +115,58 @@
 			</div>
 
 			
-
 		</div>
 
 
+
+
 	</div>
+
+	<!-- Modal -->
+
+	<center>
+			<div class="form" id="emailsend">
+
+
+		<div class="form-floating mb-3">
+		  <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+		  <label for="floatingInput">Email Subject</label>
+		</div>
+		<div class="form-floating">
+		  <textarea class="w-100 txtarea" placeholder="" id="floatingTextarea"></textarea>
+		  <label for="floatingTextarea">Email Content</label>
+		</div>
+
+
+
+		<!-- Modal Main -->
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-secondary mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+		  Launch demo modal
+		</button>
+
+		<!-- Modal -->
+		<div class="modal fade text-black" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel"></h5>
+		        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body">
+		        Email Sent
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		       
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+	</div>
+	</center>
+
 		
 	
 

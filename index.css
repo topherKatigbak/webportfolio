@@ -38,7 +38,7 @@
 		height: 100vh;
 	}
 	.mainprofile{
-		margin-top: 22vh;
+		margin-top: 23vh;
 	}
 	.contactpage{
 		/*border:  2px solid white;*/
@@ -99,6 +99,16 @@
 	}
 
 
+	.form{
+		margin-top: 50vh;
+		margin-bottom: 50vh;
+		width: 30%;
+		height: 200px;
+	}
+	.txtarea{
+		height: 100px;
+	}
+
 /* mobile phones */
 
 @media only screen and (max-width: 768px) {
@@ -142,6 +152,16 @@
 	}
 	.graphics{
 		width: 100%;
+	}
+
+	.form{
+		margin-top: 50vh;
+		margin-bottom: 50vh;
+		width: 80%;
+		height: 200px;
+	}
+	.txtarea{
+		height: 100px;
 	}
 
 
