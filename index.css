@@ -1,0 +1,107 @@
+*{
+	font-family: Poppins;
+}
+.navv{
+	border-bottom:  2px solid white;
+}
+.contactpage{
+	margin-top: 20px;
+
+}
+
+.devname{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 45px;
+	text-align: left;
+}
+.devtitle{
+		text-align: left;
+}
+.profilephoto{
+	width: 250px;
+	border:  3px solid white;
+	padding: 15px;
+}
+
+
+.cont{
+	height: 100vh;
+}
+.mainprofile{
+	margin-top: 20vh;
+}
+.contactpage{
+	/*border:  2px solid white;*/
+	
+}
+
+
+.divdp{
+	display: inline-block;
+	width: auto;
+	margin-left: 1%;
+	margin-right: 1%;
+	vertical-align: center;
+	min-height: 175px;
+	margin-top: 10vh;
+}
+.divdits{
+	text-align: left;
+	
+	
+}	
+
+
+.socmedsnemail{
+	width:  50px;
+
+}
+
+/*projects.html*/
+.profiledits{
+	margin-bottom: 200px;
+}
+.ptitle{
+	font-size: 20px;
+	font-weight: bold;
+}
+.psubheading{
+	font-size: 18px;
+}
+
+
+.contactdits{
+	border-top: 1px solid white;
+}
+
+
+/* mobile phones */
+
+@media only screen and (max-width: 768px) {
+	.mainprofile{
+    	margin-top: 5vh;
+    }
+
+    .profilephoto{
+    	width: 150px;
+    	border:  3px solid white;
+    	padding: 10px;
+    }
+    .devname{
+		text-transform: uppercase;
+		letter-spacing: 0px;
+		font-size: 30px;
+		text-align: center;
+	}
+	.devtitle{
+		text-align: center;
+	}
+
+	.socmedsnemail{
+	
+	width:  25px;
+	}
+
+
+}
