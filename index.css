@@ -1,82 +1,94 @@
-*{
+
+
+
+
+	*{
 	font-family: Poppins;
-}
-.navv{
-	border-bottom:  2px solid white;
-}
-.contactpage{
-	margin-top: 20px;
+	}
+	.navv{
+		border-bottom:  2px solid white;
+	}
+	.contactpage{
+		margin-top: 20px;
 
-}
+	}
 
-.devname{
-	text-transform: uppercase;
-	letter-spacing: 5px;
-	font-size: 45px;
-	text-align: left;
-}
-.devtitle{
+	.profilephoto{
+		width: 250px;
+		border:  3px solid white;
+		padding: 15px;
+	}
+	.namentitle{
+		margin-left: 30px;
+	}
+	.devname{
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		font-size: 45px;
 		text-align: left;
-}
-.profilephoto{
-	width: 250px;
-	border:  3px solid white;
-	padding: 15px;
-}
-
-
-.cont{
-	height: 100vh;
-}
-.mainprofile{
-	margin-top: 20vh;
-}
-.contactpage{
-	/*border:  2px solid white;*/
-	
-}
-
-
-.divdp{
-	display: inline-block;
-	width: auto;
-	margin-left: 1%;
-	margin-right: 1%;
-	vertical-align: center;
-	min-height: 175px;
-	margin-top: 10vh;
-}
-.divdits{
-	text-align: left;
+	}
+	.devtitle{
+			text-align: left;
+	}
 	
 	
-}	
 
 
-.socmedsnemail{
-	width:  50px;
-
-}
-.socmed{
-	margin-right: 40px;
-}
-
-/*projects.html*/
-.profiledits{
-	margin-bottom: 200px;
-}
-.ptitle{
-	font-size: 20px;
-	font-weight: bold;
-}
-.psubheading{
-	font-size: 18px;
-}
+	.cont{
+		height: 100vh;
+	}
+	.mainprofile{
+		margin-top: 22vh;
+	}
+	.contactpage{
+		/*border:  2px solid white;*/
+		
+	}
 
 
-.contactdits{
+	.divdp{
+		display: inline-block;
+		width: auto;
+		margin-left: 1%;
+		margin-right: 1%;
+		vertical-align: center;
+		min-height: 175px;
+		margin-top: 10vh;
+	}
+	.divdits{
+		text-align: left;
+		
+		
+	}	
 
-}
+
+	.socmedsnemail{
+		width:  50px;
+
+	}
+	#socmed1{
+		margin-right: 40px;
+	}
+	#socmed2{
+		margin-right: 40px;
+	}
+
+	/*projects.html*/
+	.profiledits{
+		margin-bottom: 200px;
+	}
+	.ptitle{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.psubheading{
+		font-size: 18px;
+	}
+
+
+	.contactdits{
+
+	}
 
 
 /* mobile phones */
@@ -93,18 +105,31 @@
     }
     .devname{
 		text-transform: uppercase;
-		letter-spacing: 0px;
-		font-size: 30px;
+		letter-spacing: 2px;
+		font-size: 25px;
 		text-align: center;
 	}
+
 	.devtitle{
 		text-align: center;
+	}
+	.namentitle{
+		margin-left: 0px;
 	}
 
 	.socmedsnemail{
 	
-	width:  25px;
+		width:  25px;
+	}
+	#socmed1{
+		margin-right: 20px;
+	}
+	#socmed2{
+		margin-right: 0px;
+		margin-bottom: 20px;
 	}
 
 
 }
+
+
