@@ -39,10 +39,10 @@
 }
 
 .form{
-	margin-top: 50vh;
-	margin-bottom: 50vh;
+	padding-top: 35vh;
+	padding-bottom: 80vh;
 	width: 30%;
-	height: 200px;
+	height: 100vh;
 }
 .txtarea{
 	height: 100px;
@@ -54,7 +54,7 @@
 	height: 100vh;
 }
 .mainprofile{
-	margin-top: 29vh;
+	margin-top: 28vh;
 }
 .contactpage{
 	/*border:  2px solid white;*/
